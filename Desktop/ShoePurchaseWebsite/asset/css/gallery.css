@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+a:hover{
+    color:black !important;
+}
+.nn a:hover{
+    color:black !important; 
+}
+img{
+    width: 458px;
+    height: 300px;
+    margin-left: 20px;
+}
+.new{
+    border-style: solid pink 2px;
+    margin-top: 200px;
+    margin-bottom: 20px;
+    justify-content: center;
+    
+}
+.page-footer{
+    background-color: pink;
+    margin-bottom: 0;
+}
+.footer-copyright{
+    background-color: palevioletred;
+    margin-bottom: 0;
+}
+@font-face {
+    font-family: 'bebas-neue';
+    src: url("../css/BebasNeue-Regular.ttf");
+    font-style: bebas-neue;
+    font-weight: 100;
+}
+h1{
+    font-family: 'bebas-neue';  
+}
+h5{
+    font-family: 'bebas-neue';  
+}
+
+a{
+    font-family: 'bebas-neue';
+    font-size: 22px;
+  
+}
+.nav-item{
+    padding: 0, 20px;
+}
+
+.nav-item:hover{
+    transform: scale(1.1,1.1);
+    
+}
+.nav-item1:hover{
+    transform: scale(1.7,1.7);
+   
+}
+.list{
+    margin-right: 130px;
+    padding: 20px;
+}
+.nav-item1{
+    padding: 30px;
+}
+.Slist{
+    margin-right: 30px;
+}
+form{
+    padding: 18px;
+}
+@media(min-width:600px){
+    .nn a{
+        color: olive !important;
+    }
+    
+    
+    .nav-item1{
+        padding: 10px;
+        margin-left: 90px;
+    }
+    
+
+    ul.nav-item1 li {
+        margin-right: 300px;
+    }
+
+    ul.nav-item1 {
+        padding-bottom: 500px;
+    }
+}
