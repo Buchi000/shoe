@@ -43,14 +43,16 @@ position: relative;
     transform: scale(1.1,1.1); 
 }
 .page-footer{
-    background-color: pink;
+    background-color: darkgray;
     margin-bottom: 0;
 }
 .footer-copyright{
     background-color: palevioletred;
     margin-bottom: 0;
 }
-.blog{
+
+.container-fliud{
+    margin-bottom: 20px;
     margin-top: 10px;
     margin-left: 35px;
     margin-right: 35px;
