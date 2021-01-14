@@ -129,11 +129,7 @@ form{
     margin-left: 60px;
     margin-right: 60px;
 }
-img{
-    width: 600px;
-    height: 500px;
-    padding: 100px 100px;
-}
+
 @media(min-width:600px){
     .nn a{
         color: olive !important;
@@ -159,4 +155,17 @@ img{
 .ff{
    
     width: 100%;
+}
+#myid{
+    width: 10px;
+    margin-left: 0px;
+    position: relative;
+}
+.row{
+    padding: 18px;
+    margin-left: 60px;
+    margin-right: 60px;
+}
+.certified{
+    margin-right: 0px;
 }
