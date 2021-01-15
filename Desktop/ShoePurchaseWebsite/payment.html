@@ -147,7 +147,7 @@
   </div>
   <hr class="mx-auto">
   <hr class="mx-auto">
-    <form>
+    <form class=" needs-validation" novalidate>
         <h3 class="titles">Shipping Address</h3>
         <div class="form-row">
           <div class="form-group col-md-6">
@@ -157,12 +157,13 @@
           <div class="form-group col-md-6">
             <label for="inputCountry">Country</label>
             <select class="form-control" id="inputCountry">
-              <option>Ethiopia</option>
-              <option>United States</option>
-              <option>South Africa</option>
-              <option>Kenya</option>
-              <option>Djibouti</option>
-            </select>
+                <option>Ethiopia</option>
+                <option>United States</option>
+                <option>South Africa</option>
+                <option>Kenya</option>
+                <option>Djibouti</option>
+              </select>
+            
           </div>
         </div>
         <div class="form-row">
@@ -171,8 +172,10 @@
             <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
           </div>
           <div class="form-group col-md-6">
-            <label for="inputCity">City</label>
-            <input type="text" class="form-control" id="inputCity" placeholder="City">
+            <input type="text" class="form-control is-invalid" id="validationServer03" aria-describedby="validationServer03Feedback" required>
+            <div id="validationServer03Feedback" class="invalid-feedback">
+              Please provide a valid city.
+            </div>
           </div>
       </div>
       <div class="form-group">
@@ -180,20 +183,24 @@
           <input type="number" class="form-control w-50" id="inputPhone" placeholder="Phone Number">
       </div>
         <div class="form-group">
-          <div class="form-check">
-            <input class="form-check-input" type="checkbox" id="gridCheck">
-            <label class="form-check-label" for="gridCheck">
-              Use this address for billing
-            </label>
-          </div>
+            <div class="form-check">
+                <input class="form-check-input is-invalid" type="checkbox" value="" id="invalidCheck3" aria-describedby="invalidCheck3Feedback" required>
+                <label class="form-check-label" for="invalidCheck3">
+                    Use this address for billing
+                </label>
+                <div id="invalidCheck3Feedback" class="invalid-feedback">
+                  You must agree before submitting.
+                </div>
+              </div>
+         
         </div>
         <button onclick="myFunction()">SHIP TO THIS ADDRESS</button>
 
-<script>
-function myFunction() {
-  alert("sucessful! you will recive an email message");
-}
-</script>
+        <script>
+        function myFunction() {
+          alert("sucessful! you will recive an email message");
+        }
+        </script>
       </form>
 
       <footer class="page-footer font-small mdb-color lighten-3 pt-4">
