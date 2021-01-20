@@ -13,10 +13,10 @@ h2{
     margin-top: 200px; 
 }
 a:hover{
-    color:black !important;
+    color: lightpink !important;
 }
 .nn a:hover{
-    color:black !important; 
+    color: lightpink !important; 
 }
 .nav-item1{
     padding: 0, 20px;
@@ -179,4 +179,8 @@ form{
 }
 #bbb{
     font-family: 'Lobster', cursive;
+}
+
+#accordionExample{
+    background-color: hotpink;
 }
